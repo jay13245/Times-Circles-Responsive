@@ -9081,7 +9081,7 @@ html {
   background-color: #555555;
 }
 
-.percircle.dark:hover > span {
+.percircle.dark:hover span {
   color: #c6ff00;
 }
 
@@ -9108,7 +9108,7 @@ html {
   border-color: #82cefa;
 }
 
-.percircle.blue:hover > span {
+.percircle.blue:hover span {
   color: #82cefa;
 }
 
@@ -9117,7 +9117,7 @@ html {
   border-color: #20cceb;
 }
 
-.percircle.blue.dark:hover > span {
+.percircle.blue.dark:hover span {
   color: #20cceb;
 }
 
@@ -9126,7 +9126,7 @@ html {
   border-color: #8dea7b;
 }
 
-.percircle.green:hover > span {
+.percircle.green:hover span {
   color: #8dea7b;
 }
 
@@ -9135,7 +9135,7 @@ html {
   border-color: #a9ff3a;
 }
 
-.percircle.green.dark:hover > span {
+.percircle.green.dark:hover span {
   color: #a9ff3a;
 }
 
@@ -9144,7 +9144,7 @@ html {
   border-color: #e88239;
 }
 
-.percircle.orange:hover > span {
+.percircle.orange:hover span {
   color: #e88239;
 }
 
@@ -9153,7 +9153,7 @@ html {
   border-color: #dc5b00;
 }
 
-.percircle.orange.dark:hover > span {
+.percircle.orange.dark:hover span {
   color: #dc5b00;
 }
 
@@ -9171,7 +9171,7 @@ html {
   border-color: #ff58b9;
 }
 
-.percircle.pink.dark:hover > span {
+.percircle.pink.dark:hover span {
   color: #ff58b9;
 }
 
@@ -9180,7 +9180,7 @@ html {
   border-color: #aa7eff;
 }
 
-.percircle.purple:hover > span {
+.percircle.purple:hover span {
   color: #aa7eff;
 }
 
@@ -9189,7 +9189,7 @@ html {
   border-color: #7a38f7;
 }
 
-.percircle.purple.dark:hover > span {
+.percircle.purple.dark:hover span {
   color: #7a38f7;
 }
 
@@ -9198,7 +9198,7 @@ html {
   border-color: #dcbd00;
 }
 
-.percircle.yellow:hover > span {
+.percircle.yellow:hover span {
   color: #dcbd00;
 }
 
@@ -9207,7 +9207,7 @@ html {
   border-color: #ffdb00;
 }
 
-.percircle.yellow.dark:hover > span {
+.percircle.yellow.dark:hover span {
   color: #ffdb00;
 }
 
@@ -9284,7 +9284,7 @@ html {
   box-sizing: content-box;
 }
 
-.percircle.animate > span, .percircle.animate:after {
+.percircle.animate span, .percircle.animate:after {
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
@@ -9313,7 +9313,7 @@ html {
   }
 }
 
-.percircle > span {
+.percircle span {
   position: absolute;
   z-index: 1;
   width: 100%;
