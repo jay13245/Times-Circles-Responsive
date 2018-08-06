@@ -22,8 +22,10 @@ html {
         &:after {
             background-color: #555555;
         }
-        &:hover>span {
-            color: #c6ff00;
+        &:hover {
+            span {
+                color: #c6ff00;
+            }
         }
     }
     &.red {
@@ -49,16 +51,20 @@ html {
         .fill {
             border-color: #82cefa;
         }
-        &:hover>span {
-            color: #82cefa;
+        &:hover {
+            span {
+                color: #82cefa;
+            }
         }
         &.dark {
             .bar,
             .fill {
                 border-color: #20cceb;
             }
-            &:hover>span {
-                color: #20cceb;
+            &:hover {
+                span {
+                    color: #20cceb;
+                }
             }
         }
     }
@@ -67,16 +73,20 @@ html {
         .fill {
             border-color: #8dea7b;
         }
-        &:hover>span {
-            color: #8dea7b;
+        &:hover {
+            span {
+                color: #8dea7b;
+            }
         }
         &.dark {
             .bar,
             .fill {
                 border-color: #a9ff3a;
             }
-            &:hover>span {
-                color: #a9ff3a;
+            &:hover {
+                span {
+                    color: #a9ff3a;
+                }
             }
         }
     }
@@ -85,16 +95,20 @@ html {
         .fill {
             border-color: #e88239;
         }
-        &:hover>span {
-            color: #e88239;
+        &:hover {
+            span {
+                color: #e88239;
+            }
         }
         &.dark {
             .bar,
             .fill {
                 border-color: #dc5b00;
             }
-            &:hover>span {
-                color: #dc5b00;
+            &:hover {
+                span {
+                    color: #dc5b00;
+                }
             }
         }
     }
@@ -111,8 +125,10 @@ html {
             .fill {
                 border-color: #ff58b9;
             }
-            &:hover>span {
-                color: #ff58b9;
+            &:hover {
+                span {
+                    color: #ff58b9;
+                }
             }
         }
     }
@@ -121,16 +137,20 @@ html {
         .fill {
             border-color: #aa7eff;
         }
-        &:hover>span {
-            color: #aa7eff;
+        &:hover {
+            span {
+                color: #aa7eff;
+            }
         }
         &.dark {
             .bar,
             .fill {
                 border-color: #7a38f7;
             }
-            &:hover>span {
-                color: #7a38f7;
+            &:hover {
+                span {
+                    color: #7a38f7;
+                }
             }
         }
     }
@@ -139,16 +159,20 @@ html {
         .fill {
             border-color: #dcbd00;
         }
-        &:hover>span {
-            color: #dcbd00;
+        &:hover {
+            span {
+                color: #dcbd00;
+            }
         }
         &.dark {
             .bar,
             .fill {
                 border-color: #ffdb00;
             }
-            &:hover>span {
-                color: #ffdb00;
+            &:hover {
+                span {
+                    color: #ffdb00;
+                }
             }
         }
     }
