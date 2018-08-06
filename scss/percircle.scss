@@ -233,7 +233,7 @@ html {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border-radius: 50%; // float: left;
+    border-radius: 50%;
     margin: 0 auto 0.1em;
     background-color: #cccccc;
     * {
@@ -248,7 +248,7 @@ html {
         }
     }
     &.animate {
-        >span,
+        span,
         &:after {
             -webkit-transition: -webkit-transform 0.2s ease-in-out;
             -moz-transition: -moz-transform 0.2s ease-in-out;
@@ -267,17 +267,13 @@ html {
     &.center {
         float: none;
         margin: 0 auto;
-    } // &.big {
-    //   font-size: 240px;
-    // }
+    }
     &.medium {
         font-size: 120px;
         @include media-breakpoint-up(xl) {
             font-size: 180px;
         }
-    } // &.small {
-    //   font-size: 80px;
-    // }
+    }
     >span {
         position: absolute;
         z-index: 1;
