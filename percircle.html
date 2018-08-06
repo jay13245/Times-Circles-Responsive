@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>percircle</title>
+    <link rel="stylesheet" href="scss/percircle.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- custom text -->
+        <div class="">
+            <div class="bg">
+                <div class="bg-content-center">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 h-100 col-6">
+                            <div id="countdown2" class="medium">
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 h-100 col-6">
+                            <div id="custom-color" class="medium">
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 h-100 col-6">
+                            <div id="custom" class="medium">
+                                <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 h-100 col-6">
+                            <div class="clearfix">
+                                <div id="redBecomesBlue" class="red medium"></div>
+                                <div class="d-flex justify-content-center w-100">
+                                    <button class="btn btn-primary" id="changeCircle">Fill 95.5</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/percircle.js"></script>
+<script>
+    $("#countdown1").percircle({
+        perclock: true,
+    });
+    $("#countdown2").percircle({
+        perclock: true,
+    });
+    $("#countdown3").percircle({
+        perclock: true,
+    });
+    $("#custom-color").percircle({
+        progressBarColor: "#1b815a",
+        percent: 79.9
+    });
+    $("#custom").percircle({
+        perdown: true,
+        secs: 60,
+        progressBarColor: "#c74812",
+        timeUpText: 'finally!'
+    });
+    $(document).ready(function () {
+        $("#redBecomesBlue").percircle({ percent: 55, text: "55" });
+
+        $('#changeCircle').click(function (e) {
+            e.preventDefault();
+            changeCircle();
+        });
+    });
+    function changeCircle() {
+        $("#redBecomesBlue").percircle({
+            text: "95.5",
+            percent: 95.5,
+            progressBarColor: "#1252c0"
+        });
+    }
+</script>
+
+</html>
